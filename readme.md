@@ -1,0 +1,81 @@
+# AgendaFácil NAF
+
+A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agendamento de atendimentos no Núcleo de Apoio Contábil e Fiscal (NAF) do Centro Universitário Serra dos Órgãos (Unifeso). O objetivo principal é simplificar o processo de agendamento de serviços fiscais e contábeis, especialmente durante o período de declaração do Imposto de Renda, promovendo acesso rápido e organizado para a população.
+
+## Índice
+
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Requisitos Funcionais](#requisitos-funcionais)
+- [Requisitos Não Funcionais](#requisitos-não-funcionais)
+- [Como Instalar e Executar o Projeto](#como-instalar-e-executar-o-projeto)
+
+## Funcionalidades
+
+### Agendamento de Atendimento
+- Usuários devem poder visualizar os horários disponíveis.
+- Possibilidade de agendar um atendimento específico.
+
+### Perfil do Usuário
+- Estudantes e professores devem ter perfis para registrar informações pessoais e profissionais relevantes.
+
+### Notificações por E-mail
+- O sistema deve enviar notificações para:
+  - Confirmar o agendamento.
+  - Lembrar os usuários da data do atendimento.
+
+### Gestão de Disponibilidade
+- Administradores do NAF devem poder configurar:
+  - Disponibilidade de atendimentos.
+  - Horários de funcionamento.
+
+### Feedback e Avaliação
+- Usuários devem poder fornecer feedback e avaliações sobre os atendimentos.
+
+### Segurança de Dados
+- Garantia de segurança e privacidade dos dados pessoais dos usuários.
+
+### Desempenho Rápido
+- O sistema deve responder rapidamente para acomodar um grande número de usuários.
+
+### Interface Intuitiva
+- A interface do usuário deve ser amigável e de fácil utilização.
+
+## Tecnologias Utilizadas
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Controle de Versionamento**: Git e GitHub
+- **Frameworks**: TailWindCSS 
+
+## Requisitos Funcionais
+
+1. **Cadastro de Usuários**: Permitir o cadastro e autenticação de usuários (população local, estudantes, professores e administradores).
+2. **Visualização de Horários Disponíveis**: Exibir horários disponíveis para o público realizar agendamentos.
+3. **Agendamento de Atendimento**: Permitir ao usuário agendar horários específicos.
+4. **Gestão de Agendamentos**: Administradores podem visualizar, alterar e cancelar agendamentos.
+5. **Notificações por E-mail**: Enviar confirmações e lembretes de agendamentos por e-mail.
+6. **Feedback de Atendimento**: Permitir que usuários avaliem o atendimento recebido.
+7. **Reagendamento e Cancelamento**: Possibilitar que usuários reagendem ou cancelem seus atendimentos.
+8. **Controle de Acesso Diferenciado**: Diferenciar permissões entre população, estudantes/professores e administradores.
+
+## Requisitos Não Funcionais
+
+1. **Usabilidade**: Interface amigável e acessível para diferentes perfis de usuários.
+2. **Performance**: Responder rapidamente às solicitações de usuários, especialmente em períodos de alta demanda.
+3. **Segurança de Dados**: Garantir a proteção dos dados pessoais dos usuários.
+4. **Conformidade com LGPD**: Cumprir as normas de proteção de dados conforme a LGPD.
+5. **Disponibilidade**: Garantir 99% de uptime durante o horário de funcionamento do NAF.
+6. **Escalabilidade**: Permitir crescimento do sistema sem perda de performance.
+7. **Compatibilidade**: Ser compatível com navegadores modernos e dispositivos móveis.
+8. **Backup e Recuperação de Dados**: Implementar rotinas de backup para garantir a continuidade do serviço.
+
+## Como Instalar e Executar o Projeto
+
+- Instale o Vscode 
+- Faça o download do repositorio
+- Instale o Node
+- Use **npm install**
+- Pronto agora você pode visualizar o site da **Agenda Facil NAF**
+
+
+
