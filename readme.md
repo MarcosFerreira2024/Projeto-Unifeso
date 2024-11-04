@@ -3,13 +3,15 @@
 A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agendamento de atendimentos no Núcleo de Apoio Contábil e Fiscal (NAF) do Centro Universitário Serra dos Órgãos (Unifeso). O objetivo principal é simplificar o processo de agendamento de serviços fiscais e contábeis, especialmente durante o período de declaração do Imposto de Renda, promovendo acesso rápido e organizado para a população.
 
 ## Índice
-
+- [Alunos](#alunos)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Requisitos Funcionais](#requisitos-funcionais)
 - [Requisitos Não Funcionais](#requisitos-não-funcionais)
 - [Como Instalar e Executar o Projeto](#como-instalar-e-executar-o-projeto)
-
+## Alunos
+- Marcos Vinicius Ferreira Pinto
+- Miguel Arcuri Carapeto Faria
 ## Funcionalidades
 
 ### Agendamento de Atendimento
