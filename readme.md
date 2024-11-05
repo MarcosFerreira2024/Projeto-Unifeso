@@ -4,7 +4,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 
 ## Índice
 - [Alunos](#alunos)
-- [Descrição do projeto](#descricao-do-projeto)
+- [Descrição do projeto](#descrição-do-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Requisitos Funcionais](#requisitos-funcionais)
