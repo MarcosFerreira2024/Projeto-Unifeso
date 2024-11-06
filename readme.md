@@ -74,6 +74,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 6. **Feedback de Atendimento**: Permitir que usuários avaliem o atendimento recebido.
 7. **Reagendamento e Cancelamento**: Possibilitar que usuários reagendem ou cancelem seus atendimentos.
 8. **Controle de Acesso Diferenciado**: Diferenciar permissões entre população, estudantes/professores e administradores.
+9. **Diversificação dos meios de contato**: Uso de redes sociais, como por exemplo o whatsapp, para fazer contato com os usuários.
 
 ## Requisitos Não Funcionais
 
