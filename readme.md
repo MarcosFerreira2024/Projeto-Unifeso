@@ -14,6 +14,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 ## Alunos
 - **Marcos Vinicius Ferreira Pinto**.
 - **Miguel Arcuri Carapeto Faria**.
+- **Luiz Felipe Oliveira Da Silva**.
 
 ## Descrição do projeto
 
