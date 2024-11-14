@@ -28,7 +28,7 @@ function NavBar() {
         <Image src="NavBar/unifeso.svg" alt='logo unifeso' width={250} height={66} />
         
         <nav
-          className='hidden md:flex-row flex-col opacity-0 md:opacity-100 md:flex p-5 md:p-0 gap-5 transition-all ease-in translate-x-[120px] md:translate-x-0 md:static absolute'
+          className='hidden md:flex-row flex-col opacity-0 md:opacity-100 md:flex p-10 rounded-bl-lg md:p-0 gap-5 transition-all ease-in translate-x-[120px] md:translate-x-0 md:static absolute'
           id='menu-mobile'
         >
           <BotoesNavBar href='#agendamento' src='NavBar/agenda.svg' alt='agendamento'/>
