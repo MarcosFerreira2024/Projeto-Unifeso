@@ -10,7 +10,7 @@ type botao = {
 }
 function BotoesNavBar({href,src,alt, width=14,height=14}: botao) {
   return (
-        <a className='w-[32px] botao-NavBar h-[32px] border-[#02877E] border-[1px] justify-center flex items-center rounded-full' href={href}><Image src={src} alt={alt} width={width} height={height} /></a>
+        <a className='w-[32px] botao-NavBar h-[32px] border-[#02877E] border-[1px] bg-white justify-center flex items-center rounded-full' href={href}><Image src={src} alt={alt} width={width} height={height} /></a>
   )
 }
 
