@@ -10,3 +10,7 @@
 .botao-NavBar:hover {
   background-color: #08d1c4;
 }
+
+html {
+  scroll-behavior: smooth;
+}
