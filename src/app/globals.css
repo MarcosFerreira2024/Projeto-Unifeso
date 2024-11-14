@@ -2,16 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .botao-NavBar {
-    box-shadow: 0 0px 1px 1px rgba(0, 0, 0, 0.3);
-    transition: 0.5s ease;
-  }
-
-.botao-NavBar:hover{
-    background-color: #08d1c4  ;
+  box-shadow: 0 0px 1px 1px rgba(0, 0, 0, 0.3);
+  transition: 0.5s ease;
 }
 
-html{
-    scroll-behavior: smooth;
+.botao-NavBar:hover {
+  background-color: #08d1c4;
 }
