@@ -61,9 +61,10 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 
 ## Tecnologias Utilizadas
 
-- **Frontend**: HTML, CSS, JavaScript.
+- **Frontend**:TypeScript, JavaScript e CSS.
 - **Controle de Versionamento**: Git e GitHub.
-- **Frameworks**: TailWindCSS.
+- **Frameworks**: TailWindCSS NextJs .
+- **Bibliotecas**: React .
 
 ## Requisitos Funcionais
 
@@ -100,7 +101,9 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 - Instale o Vscode.
 - Faça o download do repositorio.
 - Instale o Node.
-- Use **npm install**.
+- Use **npm install** no terminal.
+- Use npm run dev no terminal.
+- Pegue o localhost e coloque no seu navegador.
 - Pronto agora você pode visualizar o site da **Agenda Facil NAF**.
 
 
