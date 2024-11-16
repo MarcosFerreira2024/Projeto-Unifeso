@@ -16,7 +16,7 @@ function Marquee() {
       <div className="container mx-auto max-w-[1920px]">
         <ul className={`flex min-w-[100%] justify-between items-center mt-5 mb-5 flex-shrink-0 ${anima ? 'marqueeAnimation' : 'marqueeAnimationPaused'}`}>
           {data.map((item, index) => (
-            <li key={index} className="ml-5 min-w-[345px] min-h-[136px] shadowMarquee font-roboto p-[10px] bg-white border-[1px] text-subtitle flex flex-col justify-between rounded-[15px]">
+            <li key={index} className="ml-5 min-w-[345px] min-h-[136px] shadowMarquee font-roboto p-[10px] bg-white border-[1px] text-title flex flex-col justify-between rounded-[15px]">
               <div className="flex justify-between">
                 <h3>{item.tipo}</h3>
                 <p className="w-[9px] h-[9px] bg-background rounded-full"></p>
@@ -31,7 +31,7 @@ function Marquee() {
 
         <ul aria-hidden="true" className={`flex min-w-[100%]  justify-between items-center mt-5 mb-5 flex-shrink-0 ${anima ? 'marqueeAnimation' : 'marqueeAnimationPaused'}`}>
           {data.map((item, index) => (
-            <li key={index} className="ml-5 min-w-[345px]  min-h-[136px] shadowMarquee font-roboto p-[10px] bg-white border-[1px] text-subtitle flex flex-col justify-between rounded-[15px]">
+            <li key={index} className="ml-5 min-w-[345px]  min-h-[136px] shadowMarquee font-roboto p-[10px] bg-white border-[1px] text-title flex flex-col justify-between rounded-[15px]">
               <div className="flex justify-between">
                 <h3>{item.tipo}</h3>
                 <p className="w-[9px] h-[9px] bg-background rounded-full"></p>
