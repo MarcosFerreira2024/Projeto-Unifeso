@@ -19,11 +19,11 @@
 
 
 .marqueeAnimation {
-    animation: scroll 20s linear infinite;
+    animation: scroll 30s linear infinite;
     animation-play-state: running;
 }
   
 .marqueeAnimationPaused {
-    animation: scroll 20s linear infinite;
+    animation: scroll 30s linear infinite;
     animation-play-state: paused;
 }
