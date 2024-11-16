@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "#006B64",
         foreground: "var(--foreground)",
+        title: "#006B64",
+        subtitle: "#04887F", 
+      },
+      fontFamily: {
+        roboto: ['var(--font-family-main)', 'sans-serif'],
       },
     },
   },
