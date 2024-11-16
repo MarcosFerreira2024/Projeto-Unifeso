@@ -1,0 +1,29 @@
+.shadowMarquee{
+    box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.25);
+} 
+
+
+
+@keyframes scroll{
+ to {
+    transform: translateX(calc(-100%));
+ }
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+    user-select: none;
+    animation-play-state: paused;
+}
+
+
+.marqueeAnimation {
+    animation: scroll 20s linear infinite;
+    animation-play-state: running;
+}
+  
+.marqueeAnimationPaused {
+    animation: scroll 20s linear infinite;
+    animation-play-state: paused;
+}
