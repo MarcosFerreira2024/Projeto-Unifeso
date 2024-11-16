@@ -1,11 +1,13 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+*:focus{
+   outline: none;
+}
+@media (min-width: 700px) {
+  *:focus {
+    border: none;
+    outline: dotted;
+    color: yellow;
   }
-  
- * :focus {
-    border: 2px solid yellow;
-    outline: dotted; 
-    outline-color: yellow;
- }
-
-
+}
