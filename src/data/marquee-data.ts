@@ -6,7 +6,7 @@ type cards = {
 
 }
 
-export let cards:cards[]= [
+export const cards:cards[]= [
     {
         tipo: "Consulta ao CPF",
         horario_inicio: 8,

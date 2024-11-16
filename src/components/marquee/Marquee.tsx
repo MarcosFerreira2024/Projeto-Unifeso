@@ -1,6 +1,6 @@
 import React from "react";
 import { cards } from "@/data/marquee-data";
-let data = cards;
+const data = cards;
 
 function Marquee() {
     const [anima,setAnima] = React.useState(true)
