@@ -1,0 +1,8 @@
+.botao {
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.14);
+    transition: 0.5s ease;
+  }
+  
+  .botao-NavBar:hover {
+    background-color: #08d1c4;
+  }
