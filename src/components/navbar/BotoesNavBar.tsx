@@ -8,10 +8,11 @@ type botao = {
     width?: number; 
     height?: number;  
 }
-function BotoesNavBar({href,src,alt, width=14,height=14}: botao) {
+function BotoesNavBar({href,src,alt,width=14,height=14}: botao) {
   return (
-        <a className='w-[32px] botao botao-NavBar h-[32px] border-[#02877E] border-[1px] bg-white justify-center flex items-center rounded-full' href={href}><Image src={src} alt={alt} width={width} height={height} /></a>
+      <a className='w-[32px] botao botao-NavBar font-roboto h-[32px] border-[#02877E] border-[1px] bg-white justify-center flex items-center rounded-full tooltip' data-tooltip={alt} href={href}><Image src={src} alt={alt} width={width} height={height} /></a>
   )
+
 }
 
 export default BotoesNavBar

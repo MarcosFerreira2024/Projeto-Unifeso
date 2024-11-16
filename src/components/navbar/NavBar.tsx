@@ -24,14 +24,16 @@ function NavBar() {
 
   return (
     <div className="bg-background fixed top-0  w-[100vw] min-h-[120px] border-b-[2px] border-b-subtitle">
-      <div className="max-w-[1440px] min-h-[120px] flex mx-auto justify-between px-5 md:px-0 items-center">
-        <Link href="/"><Image
-          src="NavBar/unifeso.svg"
-          alt="logo unifeso"
-          width="250"
-          height="66"
-          className="min-w-[250px] min-h-[66px] object-contain"
-        /></Link>
+      <div className="max-w-[1280px] min-h-[120px] flex mx-auto justify-between px-5 md:px-0 items-center">
+        <Link href="/">
+          <Image
+            src="NavBar/unifeso.svg"
+            alt="logo unifeso"
+            width="250"
+            height="66"
+            className="min-w-[250px] min-h-[66px] object-contain"
+          />
+        </Link>
 
         <nav
           className="hidden md:flex-row flex-col opacity-0 md:opacity-100 md:flex p-10 w-[100vw] justify-center md:justify-end items-center  rounded-bl-lg md:p-0 gap-5 transition-all ease-in translate-y-[-40px] md:translate-y-0 md:static absolute"
@@ -40,32 +42,32 @@ function NavBar() {
           <BotoesNavBar
             href="#agendamento"
             src="NavBar/agenda.svg"
-            alt="agendamento"
+            alt="Agendamento"
           />
           <BotoesNavBar
             href="#servicos"
             src="NavBar/services.svg"
-            alt="servicos"
+            alt="Serviços"
           />
           <BotoesNavBar
             href="#notificacoes"
             src="NavBar/notifications.svg"
-            alt="notificações"
+            alt="Notificações"
           />
           <BotoesNavBar
             href="#feedback"
             src="NavBar/feedback.svg"
-            alt="feedback"
+            alt="FeedBack"
           />
           <BotoesNavBar
             href="#contato"
             src="NavBar/contact.svg"
-            alt="contato"
+            alt="Contato"
           />
           <BotoesNavBar
             href="/cadastro"
             src="NavBar/account.svg"
-            alt="cadastrar"
+            alt="Cadastrar"
           />
         </nav>
         <nav className="md:hidden">

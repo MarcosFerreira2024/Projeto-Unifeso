@@ -6,8 +6,8 @@ type cabecalho = {
 function Titulo({subtitulo, titulo}:cabecalho) {
   return (
     <>
-      <p className='text-xl font-roboto text-subtitle'>{subtitulo}</p>
-      <h1 className='text-6xl font-roboto text-title text-nowrap'>{titulo}</h1>
+      <p className='lg:text-xl text-lg font-roboto text-subtitle text-center lg:text-left'>{subtitulo}</p>
+      <h1 className='lg:text-6xl mt-2 text-4xl sm:text-5xl font-roboto text-title text-center lg:text-left text-nowrap'>{titulo}</h1>
     </>
   )
 }
