@@ -25,7 +25,7 @@ function CardAgendamento({
   return (
     
       <div
-        className={`min-w-[284px] max-w-[284px] min-h-[400px] max-h-[400px]  cursor-pointer rounded-[10px]  flex  flex-col justify-center gap-[60px] items-center`}
+        className={` h-[400px] w-[284px]   cursor-pointer rounded-[10px]  flex  flex-col justify-center gap-[60px] items-center`}
         style={{ border: `2px solid ${color}`, color: hover? "white": color, backgroundColor: hover? color : "white", transition:"all 0.5s linear"}} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
       >
         <div

@@ -5,21 +5,25 @@
 }
 
 .slides {
-  max-width: 1280px;
+  max-width: inherit;
   display: flex;
   transform: translateX(-100%);
 }
 .slide {
   display: flex;
   min-width: 100%;
+  gap: 20px;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 730px) {
   .slide {
+    flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: center;
+  }
+  .slider{
+    max-width: 80vw;
   }
 }
 
