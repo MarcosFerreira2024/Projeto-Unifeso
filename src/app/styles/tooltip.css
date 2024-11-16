@@ -18,7 +18,8 @@
     transition: visibility 0s 0s;
   }
   
-  .tooltip:hover::before {
+  .tooltip:hover::before,
+  .tooltip:focus::before {
     visibility: visible;
     animation-name: tooltip;
     animation-delay: 0.2s; 

@@ -2,3 +2,10 @@ html {
     scroll-behavior: smooth;
   }
   
+ * :focus {
+    border: 2px solid yellow;
+    outline: dotted; 
+    outline-color: yellow;
+ }
+
+
