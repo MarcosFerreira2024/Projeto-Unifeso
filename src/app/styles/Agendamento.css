@@ -1,0 +1,29 @@
+.slider {
+  max-width: 1280px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  max-width: 1280px;
+  display: flex;
+  transform: translateX(-100%);
+}
+.slide {
+  display: flex;
+  min-width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 400px) {
+  .slide {
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+}
+
+.hovered {
+  background: linear-gradient(to top, blue, white);
+  animation: moveBackground 1s forwards;
+}

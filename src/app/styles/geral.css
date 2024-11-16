@@ -1,11 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
-*:focus{
-   outline: none;
+*:focus {
+  outline: none;
 }
 @media (min-width: 700px) {
-  *:focus {
+  *:focus-visible {
     border: none;
     outline: dotted;
     color: yellow;
