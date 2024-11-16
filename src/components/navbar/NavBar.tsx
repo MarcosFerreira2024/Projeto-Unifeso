@@ -23,7 +23,7 @@ function NavBar() {
   }
 
   return (
-    <div className="bg-background fixed top-0  w-[100vw] min-h-[120px] border-b-[2px] border-b-subtitle">
+    <div className="bg-background fixed top-0  w-[100vw] min-h-[120px] border-b-[2px] border-b-subtitle z-[999]">
       <div className="sm:mx-5 xl:mx-auto max-w-[1280px] min-h-[120px] flex justify-between px-5 md:px-0 items-center ">
         <Link href="/">
           <Image
