@@ -24,7 +24,7 @@ function NavBar() {
 
   return (
     <div className="bg-background fixed top-0  w-[100vw] min-h-[120px] border-b-[2px] border-b-subtitle">
-      <div className="max-w-[1280px] min-h-[120px] flex mx-auto justify-between px-5 md:px-0 items-center">
+      <div className="sm:mx-5 xl:mx-auto max-w-[1280px] min-h-[120px] flex justify-between px-5 md:px-0 items-center ">
         <Link href="/">
           <Image
             src="NavBar/unifeso.svg"
@@ -36,7 +36,7 @@ function NavBar() {
         </Link>
 
         <nav
-          className="hidden md:flex-row flex-col opacity-0 md:opacity-100 md:flex p-10 w-[100vw] justify-center md:justify-end items-center  rounded-bl-lg md:p-0 gap-5 transition-all ease-in translate-y-[-40px] md:translate-y-0 md:static absolute"
+          className="md:mr-5 lg:mr-0 hidden md:flex-row flex-col opacity-0 md:opacity-100 md:flex p-10 w-[100vw] justify-center md:justify-end items-center  rounded-bl-lg md:p-0 gap-5 transition-all ease-in translate-y-[-40px] md:translate-y-0 md:static absolute"
           id="menu-mobile"
         >
           <BotoesNavBar
