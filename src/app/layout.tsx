@@ -4,13 +4,12 @@ export const metadata = {
 
 }
 import{Roboto} from 'next/font/google'
-
 const fontFamily = Roboto ({
   weight:["500","400","300"],
   subsets:['latin'],
   variable: '--font-family-main'
 })
-
+import "@/app/globals.css"
 export default function RootLayout({
   children,
 }: {
@@ -21,7 +20,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/png" href="https://www.unifeso.edu.br/images/favicon.png" />
       </head>
-      <body >{children}</body>
+      <body >
+        {children}
+        </body>
     </html>
   )
 }

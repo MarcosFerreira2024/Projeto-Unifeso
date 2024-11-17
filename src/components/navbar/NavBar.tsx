@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import BotoesNavBar from "./BotoesNavBar";
 
-function NavBar() {
+function NavBar({color="#006b64",border="#006b64"}:{color?:string,border?:string}) {
   function handleVisibility() {
     const menuMobile = document.getElementById("menu-mobile") as HTMLElement;
     if (menuMobile.classList.contains("hidden")) {
@@ -23,7 +23,7 @@ function NavBar() {
   }
 
   return (
-    <div className="bg-background fixed top-0  w-[100vw] min-h-[120px] border-b-[2px] border-b-subtitle z-[999]">
+    <div className="fixed  top-0  w-[100vw] min-h-[120px] border-b-[2px] border-b-subtitle z-[999]" style={{backgroundColor:color,border:border}}>
       <div className="sm:mx-5 xl:mx-auto max-w-[1280px] min-h-[120px] flex justify-between px-5 md:px-0 items-center ">
         <Link href="/">
           <Image
