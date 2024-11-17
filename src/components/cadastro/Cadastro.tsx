@@ -2,7 +2,6 @@ import React from "react";
 import Titulo from "../geral/Titulo";
 import Texto from "../geral/Texto";
 import Input from "./Input";
-import Botao from "../geral/Botao";
 import BotaoForm from "./BotaoForm";
 import Image from "next/image";
 import Link from "next/link";
