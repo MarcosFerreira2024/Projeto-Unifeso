@@ -1,10 +1,10 @@
 import React from "react";
 
-function Texto({texto}:{texto:string}) {
+function Texto({texto,color}:{texto:string,color?:string}) {
   return (
-    <>
-      <p className="max-w-[540px] min-w-[200px] font-roboto font-normal mt-5 lg:mt-2 text-sm sm:text-base text-center lg:text-left text-subtitle">{texto}</p>
-    </>
+    <div>
+      <p className="max-w-[540px] min-w-[200px] font-roboto font-normal mt-5 lg:mt-2 text-sm sm:text-base text-center lg:text-left text-subtitle" style={{color:color}}>{texto}</p>
+    </div>
   );
 }
 
