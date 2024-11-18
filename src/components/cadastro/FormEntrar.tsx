@@ -38,6 +38,10 @@ function FormEntrar({ onSwitch }: form) {
                 className="absolute cursor-pointer right-[-25px] bottom-[7px]"
               />
             </div>
+            <BotaoForm
+                  label="Logar"
+                  action="submit"
+                />
           </form>
           <div className="text-title mt-2 text-lg">
             <h1>
