@@ -29,7 +29,7 @@ function Registro({ onSwitch }: registrar) {
           <Titulo subtitulo="ㅤ" titulo="Registrar" />
         </div>
         <div>
-          <form action="post" className="grid lg:grid-cols-2 justify-center items-center gap-5">
+          <form action="post" className="grid lg:grid-cols-2 justify-center  gap-5">
             <div className="gap-5 flex flex-col">
               <Input
                 type="text"
