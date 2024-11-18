@@ -11,7 +11,7 @@ function FormEntrar({ onSwitch }: form) {
   return (
     <>
       <div className="flex flex-col gap-5">
-        <div>
+        <div className="flex  justify-center">
           <Titulo titulo="Entrar" />
         </div>
         <div>
