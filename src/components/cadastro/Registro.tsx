@@ -50,7 +50,7 @@ function Registro({ onSwitch }: registrar) {
                   width={30}
                   height={30}
                   alt="mostrar senha"
-                  className="absolute cursor-pointer right-[-20px] bottom-[9px]"
+                  className="absolute cursor-pointer right-[-20px] bottom-[7px]"
                 />
               </div>
             </div>
@@ -87,17 +87,29 @@ function Registro({ onSwitch }: registrar) {
                 ></button>
                 <p className="text-sm pl-2 max-w-[220px] break-words ">
                   Eu li e concordo com os{" "}
-                  <a className="underline text-subtitle" href="/termos_de_uso" target="blank">
+                  <a
+                    className="underline text-subtitle"
+                    href="/termos_de_uso"
+                    target="blank"
+                  >
                     Termos
                   </a>{" "}
                   e a{" "}
-                  <a className="underline text-subtitle" href="/politica_de_privacidade" target="blank">
+                  <a
+                    className="underline text-subtitle"
+                    href="/politica_de_privacidade"
+                    target="blank"
+                  >
                     Política de Privacidade
                   </a>
                 </p>
               </div>
               <div className="pt-5">
-                <BotaoForm outros={{disabled:checked?false:true}} label="Registrar" action="submit" />
+                <BotaoForm
+                  outros={{ disabled: checked ? false : true }}
+                  label="Registrar"
+                  action="submit"
+                />
                 <h1 className="">
                   Ja possui conta ?{" "}
                   <button
