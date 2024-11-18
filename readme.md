@@ -4,7 +4,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 
 ## Índice
 - [Alunos](#alunos)
-- [Descrição do projeto](#descrição-do-projeto)
+- [Dores do Publico Alvo](#dores-do-publico-alvo)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Requisitos Funcionais](#requisitos-funcionais)
@@ -16,11 +16,21 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 - **Miguel Arcuri Carapeto Faria**.
 - **Luiz Felipe Oliveira Da Silva**.
 
-## Descrição do projeto
-
-### Objetivo
-- Temos como objetivo a criação de um facilitador para que pessoas e empresas consigam suporte para a declaração do imposto de renda. Para isso, trazemos um sistema de fácil uso e alta eficiência, que conta com a colaboração da comunidade acadêmica da UNIFESO, conduzindo os atendimentos, e da administração do NAF (Núcleo de apoio contábil e fiscal), gerenciando o mesmo.
-- No que se refere ao público alvo, buscamos auxiliar a população local, englobando os cidadãos da região e empresas. Em especial, queremos simplificar para aqueles com pouco conhecimento ou com dúvidas sobre o processo de declaração do imposto de renda, que não acharam profissionais confiáveis ou disponíveis para o serviço, que buscam solução rápida e certificada.
+## Dores do Publico Alvo
+- Falta de Conhecimento sobre o Processo
+Dificuldade em entender as etapas da declaração do imposto de renda.
+Insegurança em preencher corretamente os dados fiscais.
+- Falta de Profissionais Confiáveis e Disponíveis
+Dificuldade em encontrar profissionais especializados.
+Alto custo de serviços contábeis, inviável para muitas pessoas.
+- Procura por Soluções Rápidas e Certificadas
+Necessidade de um suporte ágil para evitar problemas com prazos.
+Busca por um serviço que garanta segurança e confiança nas informações prestadas.
+- Dificuldade em Empresas Locais
+Pequenas empresas enfrentam desafios para organizar e declarar corretamente seus dados fiscais.
+- Inclusão de Pessoas com Pouco Acesso ou Experiência
+População com baixo acesso à internet ou tecnologias modernas.
+Usuários com dificuldades para lidar com ferramentas digitais complexas.
 
 ## Funcionalidades
 
