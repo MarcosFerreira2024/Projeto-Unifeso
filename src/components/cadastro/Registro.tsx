@@ -3,6 +3,7 @@ import BotaoForm from "./BotaoForm";
 import Input from "./Input";
 import Titulo from "../geral/Titulo";
 import Image from "next/image";
+import Link from "next/link";
 
 type registrar = {
   onSwitch: () => void;
@@ -12,12 +13,23 @@ function Registro({ onSwitch }: registrar) {
   const [checked, setCheck] = useState(false);
   return (
     <>
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col mt-20 md:mt-0 justify-center items-center">
+        <div className="md:hidden">
+          <Link href="/">
+            <Image
+              src="NavBar/logo-unifeso-verde.svg"
+              alt="logo unifeso"
+              width="250"
+              height="66"
+              className="min-w-[250px] min-h-[66px] object-contain "
+            />
+          </Link>
+        </div>
         <div className="pb-5">
-          <Titulo titulo="Registrar" />
+          <Titulo subtitulo="ㅤ" titulo="Registrar" />
         </div>
         <div>
-          <form action="post" className="grid lg:grid-cols-2 gap-5">
+          <form action="post" className="grid lg:grid-cols-2 justify-center items-center gap-5">
             <div className="gap-5 flex flex-col">
               <Input
                 type="text"
@@ -50,7 +62,7 @@ function Registro({ onSwitch }: registrar) {
                   width={30}
                   height={30}
                   alt="mostrar senha"
-                  className="absolute cursor-pointer right-[-20px] bottom-[7px]"
+                  className="absolute cursor-pointer right-[-35px] bottom-[7px]"
                 />
               </div>
             </div>

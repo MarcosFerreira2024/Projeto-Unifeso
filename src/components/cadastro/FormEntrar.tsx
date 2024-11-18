@@ -3,6 +3,7 @@ import Titulo from "../geral/Titulo";
 import Input from "./Input";
 import BotaoForm from "./BotaoForm";
 import Image from "next/image";
+import Link from "next/link";
 type form = {
   onSwitch: () => void;
 };
@@ -11,8 +12,21 @@ function FormEntrar({ onSwitch }: form) {
   return (
     <>
       <div className="flex flex-col gap-5">
-        <div className="flex  justify-center">
-          <Titulo titulo="Entrar" />
+        <div className="flex flex-col  justify-center">
+          <div className="md:hidden absolute top-20">
+            <Link href="/">
+              <Image
+                src="NavBar/logo-unifeso-verde.svg"
+                alt="logo unifeso"
+                width="250"
+                height="66"
+                className="min-w-[250px] min-h-[66px] object-contain "
+              />
+            </Link>
+          </div>
+          <div className="text-center text-5xl">
+            <Titulo subtitulo="ㅤ" titulo="Entrar" />
+          </div>
         </div>
         <div>
           <form action="post" className="flex flex-col gap-5">
@@ -35,13 +49,10 @@ function FormEntrar({ onSwitch }: form) {
                 width={30}
                 height={30}
                 alt="mostrar senha"
-                className="absolute cursor-pointer right-[-25px] bottom-[7px]"
+                className="absolute cursor-pointer right-[-35px] bottom-[7px]"
               />
             </div>
-            <BotaoForm
-                  label="Logar"
-                  action="submit"
-                />
+            <BotaoForm label="Logar" action="submit" />
           </form>
           <div className="text-title mt-2 text-lg">
             <h1>

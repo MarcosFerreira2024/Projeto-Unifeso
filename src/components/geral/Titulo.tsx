@@ -7,8 +7,8 @@ type cabecalho = {
 function Titulo({subtitulo, titulo,color}:cabecalho) {
   return (
     <div>
-      <p className='lg:text-xl text-lg font-roboto text-subtitle text-center lg:text-left' style={{color:color}}>{subtitulo}</p>
-      <h1 className='lg:text-6xl text-4xl sm:text-5xl font-roboto text-title text-center lg:text-left text-nowrap'style={{color:color}}>{titulo}</h1>
+      <p className='lg:text-xl text-lg font-roboto text-subtitle ' style={{color:color}}>{subtitulo}</p>
+      <h1 className='lg:text-6xl text-5xl sm:text-5xl font-roboto text-title  text-nowrap'style={{color:color}}>{titulo}</h1>
     </div>
   )
 }
