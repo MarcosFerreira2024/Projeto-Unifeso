@@ -5,7 +5,7 @@ type ContextProviderProps = {
 };
 
 type ContextType = {
-    openModal:(event:any)=> void; 
+    openModal:(event:MouseEvent)=> void; 
     closeModal:()=> void;
     modalData:string;
     setModalData:(e:string)=>void;
