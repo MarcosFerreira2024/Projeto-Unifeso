@@ -16,16 +16,16 @@ function Servicos() {
         <div className="flex-1">
           <CardServicos
             alt="agenda"
-            url={`/servicos/agenda.svg`}
+            url={`/Servicos/agenda.svg`}
             height={50}
             width={50}
-            titulo="Gerenciar  Agendamento"
+            titulo="Gerenciar Agendamento"
           />
         </div>
         <div className="flex-1">
           <CardServicos
             alt="agenda"
-            url={`/servicos/coracao.svg`}
+            url={`/Servicos/coracao.svg`}
             height={50}
             width={50}
             titulo="Suporte 24 horas"
@@ -34,7 +34,7 @@ function Servicos() {
         <div className="flex-1">
           <CardServicos
             alt="agenda"
-            url={`/servicos/seguranca.svg`}
+            url={`/Servicos/seguranca.svg`}
             height={50}
             width={50}
             titulo="Segurança de Dados"
@@ -43,7 +43,7 @@ function Servicos() {
         <div className="flex-1">
           <CardServicos
             alt="agenda"
-            url={`/servicos/feedback.svg`}
+            url={`/Servicos/feedback.svg`}
             height={50}
             width={50}
             titulo="FeedBack"
@@ -52,7 +52,7 @@ function Servicos() {
         <div className="flex-1">
           <CardServicos
             alt="agenda"
-            url={`/servicos/email.svg`}
+            url={`/Servicos/email.svg`}
             height={50}
             width={50}
             titulo="Notificações por E-mail"
@@ -61,7 +61,7 @@ function Servicos() {
         <div className="flex-1">
           <CardServicos
             alt="agenda"
-            url={`/servicos/cadeado.svg`}
+            url={`/Servicos/cadeado.svg`}
             height={50}
             width={50}
             titulo="Controle de Acesso"
