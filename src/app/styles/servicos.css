@@ -30,7 +30,7 @@
     animation: scrollAnimation linear forwards;
     opacity: 1;
     animation-timeline: view();
-    animation-range-start:-100px; 
+    animation-range-start:-150px; 
     animation-range-end: 300px;
   }
   
