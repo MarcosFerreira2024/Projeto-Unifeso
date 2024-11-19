@@ -25,9 +25,12 @@ export const ServiceProvider = ({ children }: ContextProviderProps) => {
     function closeModal(){
         setModal(false)
     }
-    function openModal(event:any){
-        setModalData(event.currentTarget.getAttribute("data-descricao"))
-        setModal(true)
+    function openModal(event: MouseEvent){
+        if(event && event.currentTarget) {
+            const data = (event.currentTarget as HTMLElement).getAttribute("data-descricao")
+            setModalData(data as string)
+            setModal(true)
+        }
     }
 
     return (

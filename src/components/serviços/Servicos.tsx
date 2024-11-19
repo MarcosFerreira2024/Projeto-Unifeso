@@ -5,9 +5,7 @@ import ModalServico from "./ModalServico";
 import { ContextService } from "./ContextServico";
 
 function Servicos() {
-  const { modal, setModal, openModal, closeModal } =
-    React.useContext(ContextService);
-    
+  const { modal } = React.useContext(ContextService);
   return (
     <section id="servicos" >
       <div className="flex border-subtitle border-[1px] sombraServico  mx-auto justify-center py-10 mt-[80px]">
