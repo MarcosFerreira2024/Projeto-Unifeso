@@ -7,7 +7,7 @@
 .slides {
   max-width: inherit;
   display: flex;
-  transform: translateX(-100%);
+  transform: translateX(0%);
 }
 .slide {
   display: flex;
