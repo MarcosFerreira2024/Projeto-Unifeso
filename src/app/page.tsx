@@ -14,6 +14,9 @@ export default function Home() {
     <Marquee />
     <Agendamento />
     <ServiceProvider><Servicos /></ServiceProvider>
+    <div className="mt-[200px]">
+
+    </div>
     </>
   );
 }

@@ -11,11 +11,11 @@ function Servicos() {
       <div className="flex border-subtitle border-[1px] sombraServico  mx-auto justify-center py-10 mt-[80px]">
         <Titulo titulo="Serviços" />
       </div>
-      <section  className={`sm:flex flex-wrap relative  grid grid-cols-1 h-[300px] sm:h-[900px]  gap-5 pt-[80px]  justify-center mx-auto ${modal?"h-[screen]":"max-w-[1280px]"}`}>
+      <section  className={`sm:flex  flex-wrap relative  grid grid-cols-1 h-[300px] sm:h-[900px]  gap-5 pt-[80px]  justify-center mx-auto ${modal?"h-[screen]":"max-w-[1280px]"}`}>
         {modal ? <ModalServico /> : ""}
         {!modal ? (
           <>
-            <div className="flex-1">
+            <div className="flex-1  animacaoCardServicos  ">
               <CardServicos
                 data="Permite que os clientes organizem e administrem seus agendamentos de forma prática e eficiente."
                 alt="agenda"
@@ -25,7 +25,7 @@ function Servicos() {
                 titulo="Gerenciar Agendamento"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1  animacaoCardServicos ">
               <CardServicos
                 data="Nosso suporte esta disponível 24 horas para ajudar com qualquer dúvida ou agendamento"
                 alt="suporte"
@@ -35,7 +35,7 @@ function Servicos() {
                 titulo="Suporte 24 horas"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1  animacaoCardServicos ">
               <CardServicos
                 data="Todos os dados são criptografados para a segurança de nossos clientes e colaboradores."
                 alt="Segurança"
@@ -45,7 +45,7 @@ function Servicos() {
                 titulo="Segurança de Dados"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1  animacaoCardServicos ">
               <CardServicos
                 data="Após o atendimento, os usuários podem fornecer feedback para melhoria dos serviços."
                 alt="FeedBack"
@@ -55,7 +55,7 @@ function Servicos() {
                 titulo="FeedBack"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1  animacaoCardServicos ">
               <CardServicos
                 data="O sistema da NAF envia notificações por e-mail para confirmar o agendamento e lembrar os usuários da data do atendimento."
                 alt="Notificações"
@@ -65,7 +65,7 @@ function Servicos() {
                 titulo="Notificações por E-mail"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1  animacaoCardServicos ">
               <CardServicos
                 data="Diferencia permissões entre população, estudantes, professores e administradores."
                 alt="Controle de Acesso"
