@@ -12,8 +12,8 @@ function Cadastro() {
       <section className=" bg-background md:h-screen">
         <div className="max-w-[640px] ml-auto hidden md:flex min-w-[100%] justify-center md:justify-normal pt-60 items-center flex-col md:h-screen h-[60vh]">
 
-          <div className="flex flex-col gap-5 relative ">
-            <div className="absolute  top-[-100px] left-[25%] md:left-0">
+          <div className="flex flex-col gap-2 relative ">
+            <div className="absolute top-[-100px] left-[25%] md:left-0">
               <Link href="/">
                 <Image
                   src="NavBar/unifeso.svg"
@@ -46,6 +46,7 @@ function Cadastro() {
       </section>
     </section>
   );
+  
 }
 
 export default Cadastro;

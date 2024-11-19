@@ -7,7 +7,7 @@ import Botao from "../geral/Botao";
 function Main() {
   return (
     <main className="lg:mt-[81px] mt-40 max-w-[1280px] sm:mx-5 xl:mx-auto justify-center items-center lg:justify-between flex lg:flex-row flex-col">
-      <section className="text-center md:text-left">
+      <section className="text-center md:text-left flex flex-col gap-0.5">
         <Titulo titulo="Agende Conosco" subtitulo="Agenda Facil NAF" />
         <Texto
           texto="Oferecemos à população serviços especializados em contabilidade e fiscalidade,
