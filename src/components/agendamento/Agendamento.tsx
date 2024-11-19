@@ -3,7 +3,6 @@ import CardAgendamento from "./CardAgendamento";
 import Titulo from "../geral/Titulo";
 
 function Agendamento() {
-  const [active,setActive]= React.useState(true)
   return (
     <section id="agendamento">
       <div className="mx-auto max-w-[1280px] flex justify-center mt-20 mb-20">
