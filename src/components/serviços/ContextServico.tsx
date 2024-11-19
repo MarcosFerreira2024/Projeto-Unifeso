@@ -5,7 +5,7 @@ type ContextProviderProps = {
 };
 
 type ContextType = {
-    openModal:(event:MouseEvent)=> void; 
+    openModal:(event:React.MouseEvent<HTMLElement>)=> void; 
     closeModal:()=> void;
     modalData:string;
     setModalData:(e:string)=>void;
@@ -25,7 +25,7 @@ export const ServiceProvider = ({ children }: ContextProviderProps) => {
     function closeModal(){
         setModal(false)
     }
-    function openModal(event: MouseEvent){
+    function openModal(event: React.MouseEvent<HTMLElement>){
         if(event && event.currentTarget) {
             const data = (event.currentTarget as HTMLElement).getAttribute("data-descricao")
             setModalData(data as string)

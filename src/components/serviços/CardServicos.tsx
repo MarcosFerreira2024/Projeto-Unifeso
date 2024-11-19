@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import ModalServico from './ModalServico';
 import { ContextService } from './ContextServico';
 type card = {
     url?:string; 
