@@ -11,7 +11,7 @@ function Servicos() {
       <div className="flex border-subtitle border-[1px] sombraServico  mx-auto justify-center py-10 mt-[80px]">
         <Titulo titulo="Serviços" />
       </div>
-      <section  className={`sm:flex  flex-wrap relative  grid grid-cols-1 h-[300px] sm:h-[900px] gap-40  md:gap-5 pt-[80px]  justify-center mx-auto ${modal?"h-[screen]":"max-w-[1280px]"}`}>
+      <section  className={`sm:flex  flex-wrap relative  grid grid-cols-1 h-[300px] sm:h-[900px] gap-40  md:gap-5  justify-center mx-auto ${modal?"":"max-w-[1280px] pt-[80px]"}`}>
         {modal ? <ModalServico /> : ""}
         {!modal ? (
           <>
