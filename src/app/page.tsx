@@ -5,6 +5,7 @@ import Main from "@/components/main/Main"
 import Marquee from "@/components/marquee/Marquee";
 import Agendamento from "@/components/agendamento/Agendamento";
 import Servicos from "@/components/serviços/Servicos";
+import { ServiceProvider } from "@/components/serviços/ContextServico";
 export default function Home() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function Home() {
     <Main />
     <Marquee />
     <Agendamento />
-    <Servicos />
+    <ServiceProvider><Servicos /></ServiceProvider>
     </>
   );
 }
