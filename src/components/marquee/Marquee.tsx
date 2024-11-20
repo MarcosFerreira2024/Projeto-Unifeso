@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { cards } from "@/data/marquee-data";
 const data = cards;
@@ -12,14 +13,14 @@ function Marquee() {
     }
 
   return (
-    <section className="bg-background" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <section className="bg-background dark:bg-background-dark" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <div className="container mx-auto max-w-[1920px]">
         <ul className={`flex min-w-[100%] justify-between items-center mt-5 mb-5 flex-shrink-0 ${anima ? 'marqueeAnimation' : 'marqueeAnimationPaused'}`}>
           {data.map((item, index) => (
-            <li key={index} className="ml-5 min-w-[345px] min-h-[136px] shadowMarquee font-roboto p-[10px] bg-white border-[1px] text-title flex flex-col justify-between rounded-[15px]">
+            <li key={index} className="ml-5 min-w-[345px] min-h-[136px] border-[white] dark:border-pagina-dark shadowMarquee font-roboto p-[10px] dark:bg-pagina-dark bg-white border-[1px] text-title dark:text-title-dark flex flex-col justify-between rounded-[15px]">
               <div className="flex justify-between">
                 <h3>{item.tipo}</h3>
-                <p className="w-[9px] h-[9px] bg-background rounded-full"></p>
+                <p className="w-[9px] h-[9px] bg-background dark:bg-background-dark rounded-full"></p>
               </div>
               <p>
                 {item.horario_inicio.toFixed(2).replace(".", ":")}- 
@@ -31,10 +32,10 @@ function Marquee() {
 
         <ul aria-hidden="true" className={`flex min-w-[100%]  justify-between items-center mt-5 mb-5 flex-shrink-0 ${anima ? 'marqueeAnimation' : 'marqueeAnimationPaused'}`}>
           {data.map((item, index) => (
-            <li key={index} className="ml-5 min-w-[345px]  min-h-[136px] shadowMarquee font-roboto p-[10px] bg-white border-[1px] text-title flex flex-col justify-between rounded-[15px]">
+            <li key={index} className="ml-5 min-w-[345px]  min-h-[136px] shadowMarquee font-roboto p-[10px] bg-white border-[white] dark:border-pagina-dark  dark:bg-pagina-dark border-[1px] text-title dark:text-title-dark flex flex-col justify-between rounded-[15px]">
               <div className="flex justify-between">
                 <h3>{item.tipo}</h3>
-                <p className="w-[9px] h-[9px] bg-background rounded-full"></p>
+                <p className="w-[9px] h-[9px] bg-background dark:bg-background-dark rounded-full"></p>
               </div>
               <p>
                 {item.horario_inicio.toFixed(2).replace(".", ":")}- 
