@@ -9,7 +9,7 @@ function Cadastro() {
   const [entrar,setEntrar]=React.useState(true)
   return (
     <section className="grid md:grid-cols-2 ">
-      <section className=" bg-background md:h-screen">
+      <section className=" bg-background dark:bg-background-dark md:h-screen">
         <div className="max-w-[640px] ml-auto hidden md:flex min-w-[100%] justify-center md:justify-normal pt-60 items-center flex-col md:h-screen h-[60vh]">
 
           <div className="flex flex-col gap-2 relative ">
@@ -39,7 +39,7 @@ function Cadastro() {
           </div>
         </div>
       </section>
-      <section className="bg-white md:h-screen h-screen sombraRegistro  ">
+      <section className="bg-white dark:bg-gray-900 md:h-screen h-screen sombraRegistro  ">
         <div className="max-w-[640px] flex flex-col items-center gap-5 justify-center md:justify-normal pt-60   min-w-[100%] md:h-screen h-[60vh]">
           {entrar?<FormEntrar onSwitch={()=> setEntrar(!entrar)}/>:<Registro onSwitch={()=> setEntrar(!entrar)} />}
         </div>
