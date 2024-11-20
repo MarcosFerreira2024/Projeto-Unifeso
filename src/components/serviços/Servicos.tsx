@@ -8,7 +8,7 @@ function Servicos() {
   const { modal } = React.useContext(ContextService);
   return (
     <section id="servicos" >
-      <div className="flex border-subtitle border-[1px] sombraServico  mx-auto justify-center py-10 mt-[80px]">
+      <div className={`flex border-subtitle dark:border-gray-600 dark:bg-gray-700 border-[1px] sombraServicos  mx-auto justify-center py-10 mt-[80px]`}>
         <Titulo titulo="Serviços" />
       </div>
       <section  className={`sm:flex  flex-wrap relative  grid grid-cols-1 h-[300px] sm:h-[900px] gap-40  md:gap-5  justify-center mx-auto ${modal?"":"max-w-[1280px] pt-[80px]"}`}>
