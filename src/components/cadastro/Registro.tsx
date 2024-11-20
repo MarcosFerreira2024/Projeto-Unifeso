@@ -62,7 +62,7 @@ function Registro({ onSwitch }: registrar) {
                   width={30}
                   height={30}
                   alt="mostrar senha"
-                  className="absolute cursor-pointer right-[-35px] bottom-[7px]"
+                  className="absolute cursor-pointer filter dark:brightness-[1.8] dark:grayscale right-[-35px] bottom-[7px]"
                 />
               </div>
             </div>
@@ -87,7 +87,7 @@ function Registro({ onSwitch }: registrar) {
               />
             </div>
 
-            <div className="text-title flex flex-col  text-lg">
+            <div className="text-title dark:text-title-dark flex flex-col  text-lg">
               <div className="flex items-center">
                 <button
                   style={{ backgroundColor: checked ? "#04887f" : "" }}
@@ -95,12 +95,12 @@ function Registro({ onSwitch }: registrar) {
                     e.preventDefault();
                     setCheck(!checked);
                   }}
-                  className="rounded-full w-[30px] h-[30px] border-[2px] border-title"
+                  className="rounded-full w-[30px] h-[30px] border-[2px] dark:border-gray-600 border-title"
                 ></button>
                 <p className="text-sm pl-2 max-w-[220px] break-words ">
                   Eu li e concordo com os{" "}
                   <a
-                    className="underline text-subtitle"
+                    className="underline text-subtitle dark:text-subtitle-dark "
                     href="/termos_de_uso"
                     target="blank"
                   >
@@ -108,7 +108,7 @@ function Registro({ onSwitch }: registrar) {
                   </a>{" "}
                   e a{" "}
                   <a
-                    className="underline text-subtitle"
+                    className="underline text-subtitle dark:text-subtitle-dark"
                     href="/politica_de_privacidade"
                     target="blank"
                   >
@@ -125,7 +125,7 @@ function Registro({ onSwitch }: registrar) {
                 <h1 className="">
                   Ja possui conta ?{" "}
                   <button
-                    className="text-subtitle underline"
+                    className="text-subtitle dark:text-subtitle-dark underline"
                     onClick={onSwitch}
                   >
                     {" "}
