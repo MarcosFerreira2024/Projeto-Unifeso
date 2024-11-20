@@ -20,7 +20,7 @@ function CardServicos({titulo,url="/servicos/agenda.svg",alt,height=81,width=81,
                 <Image src={url} alt={alt} height={height} width={width}   className='object-fit object-bottom min-h-[81px] '/>
             </div>
             <div className='mt-5 text-nowrap' >
-                <h1 className='sm:text-3xl text-xl  text-title font-roboto'>{titulo}</h1>
+                <h1 className='sm:text-2xl text-xl  text-title font-roboto'>{titulo}</h1>
             </div>
         </div>
         
