@@ -13,6 +13,7 @@ function ThemeSwitcher() {
           setTemaBotao(pegaTema)
         } else {
           setTemaBotao('light')
+          setTheme('light')
         }
       }, [])
     function handleClick(event: React.MouseEvent<HTMLElement>){
