@@ -29,7 +29,7 @@ function CardAgendamento({
         style={{ border: `2px solid ${color}`, color: hover? "white": color, backgroundColor: hover? color : "white", transition:"all 0.5s linear"}} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
       >
         <div
-          className="w-[90px] h-[90px] z-10 bg-white rounded-full shadowMarquee flex items-center justify-center"
+          className="w-[90px] h-[90px] z-10 bg-white rounded-full  shadowMarquee flex items-center justify-center"
           style={{ border: `2px solid ${color}` }}
         >
           <Image src={src} height={height} width={width} alt={label} />
