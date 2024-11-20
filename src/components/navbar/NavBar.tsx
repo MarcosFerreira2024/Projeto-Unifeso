@@ -3,15 +3,16 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import BotoesNavBar from "./BotoesNavBar";
+import ThemeSwitcher from "../geral/ThemeSwitcher";
 
-function NavBar({color="#006b64",border="#006b64"}:{color?:string,border?:string}) {
+function NavBar({color,border}:{color?:string,border?:string}) {
   function handleVisibility() {
     const menuMobile = document.getElementById("menu-mobile") as HTMLElement;
     if (menuMobile.classList.contains("hidden")) {
       menuMobile.classList.remove("hidden");
       menuMobile.classList.add("flex", "top-[120px]", "right-0");
       setTimeout(() => {
-        menuMobile.classList.add("bg-background", "rounded-bl-sm");
+        menuMobile.classList.add("bg-background","rounded-bl-sm","dark:bg-background-dark");
         menuMobile.classList.remove("translate-y-[-40px]", "opacity-0");
       }, 300);
     } else {
@@ -23,7 +24,7 @@ function NavBar({color="#006b64",border="#006b64"}:{color?:string,border?:string
   }
 
   return (
-    <div className="fixed  top-0  w-[100vw] min-h-[120px] border-b-[2px] border-b-subtitle z-[999]" style={{backgroundColor:color,border:border}}>
+    <div className="fixed  top-0  bg-background dark:bg-background-dark dark:border-gray-600 w-[100vw] min-h-[120px] border-b-[2px] border-b-subtitle  z-[999]" style={{backgroundColor:color,border:border}}>
       <div className="sm:mx-5 xl:mx-auto max-w-[1280px] min-h-[120px] flex justify-between px-5 md:px-0 items-center ">
         <Link href="/">
           <Image
@@ -36,9 +37,12 @@ function NavBar({color="#006b64",border="#006b64"}:{color?:string,border?:string
         </Link>
 
         <nav
-          className="md:mr-5 lg:mr-0 hidden md:flex-row flex-col opacity-0 md:opacity-100 md:flex p-10 w-[100vw] justify-center md:justify-end items-center  rounded-bl-lg md:p-0 gap-5 transition-all ease-in translate-y-[-40px] md:translate-y-0 md:static absolute"
+          className="md:mr-5 lg:mr-0 md:bg-none hidden md:flex-row flex-col opacity-0  md:opacity-100 md:flex p-10 w-[100vw] justify-center md:justify-end items-center  rounded-bl-lg md:p-0 gap-5 transition-all ease-in translate-y-[-40px] md:translate-y-0 md:static absolute"
           id="menu-mobile"
         >
+          <div>
+            <ThemeSwitcher />
+          </div>
           <BotoesNavBar
             href="#agendamento"
             src="NavBar/agenda.svg"
