@@ -1,23 +1,27 @@
 'use client'
 
 import { useTheme } from 'next-themes'
-import React from 'react'
+import React, { useEffect } from 'react'
 import BotoesNavBar from '../navbar/BotoesNavBar';
 
 function ThemeSwitcher() {
     const {setTheme} = useTheme();
-    const pegaTema = localStorage.getItem('theme');
-    const [temaBotao,setTemaBotao] = React.useState<string>(pegaTema as string);
+    const [temaBotao,setTemaBotao] = React.useState<string>("");
+    useEffect(() => {
+        const pegaTema = localStorage.getItem('theme')
+        if (pegaTema) {
+          setTemaBotao(pegaTema)
+        } else {
+          setTemaBotao('light')
+        }
+      }, [])
     function handleClick(event: React.MouseEvent<HTMLElement>){
-        if (pegaTema){
             const tema = event.currentTarget.getAttribute("data-tema")
             localStorage.setItem('theme', tema as string);
             setTemaBotao(tema as string)
             setTheme(tema as string)
-        }else{
-            setTemaBotao('light')
         }
-    }    
+       
   return (
     <div>
        {temaBotao === 'dark'?
