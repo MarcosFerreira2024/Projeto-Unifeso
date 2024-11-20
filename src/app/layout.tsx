@@ -10,18 +10,21 @@ const fontFamily = Roboto ({
   variable: '--font-family-main'
 })
 import "@/app/globals.css"
+import { ThemeProvider } from '@/components/Provider/Theme-provider'
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={fontFamily.variable}>
+    <html lang="en" className={fontFamily.variable} suppressHydrationWarning>
       <head>
         <link rel="icon" type="image/png" href="https://www.unifeso.edu.br/images/favicon.png" />
       </head>
-      <body >
-        {children}
+        <body className='bg-pagina dark:bg-pagina-dark transition-colors ease-in-out duration-200' >
+          <ThemeProvider attribute="class" defaultTheme='system' enableSystem >
+              {children}
+          </ThemeProvider>
         </body>
     </html>
   )
