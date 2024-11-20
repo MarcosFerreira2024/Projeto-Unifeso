@@ -27,20 +27,21 @@
 
 
 .animacaoCardServicos {
-    animation: scrollAnimation linear forwards;
+    animation: scrollAnimation ease-in-out forwards;
     opacity: 1;
     animation-timeline: view();
-    animation-range-start:-150px; 
+    animation-range-start:0px; 
     animation-range-end: 300px;
+
   }
   
   @keyframes scrollAnimation {
     from {
-      transform: translateY(-250px);
+      transform: scale(0.8);
       opacity: 0;
     }
     to {
-      transform: translateY(0);
+      transform: scale(1);
       opacity: 1;
     }
   }
