@@ -49,15 +49,15 @@ function FormEntrar({ onSwitch }: form) {
                 width={30}
                 height={30}
                 alt="mostrar senha"
-                className="absolute cursor-pointer right-[-35px] bottom-[7px]"
+                className="absolute cursor-pointer filter dark:brightness-[1.8] dark:grayscale right-[-35px] bottom-[7px]"
               />
             </div>
             <BotaoForm label="Logar" action="submit" />
           </form>
-          <div className="text-title mt-2 text-lg">
+          <div className="text-title mt-2 dark:text-title-dark text-lg">
             <h1>
               Nao possui conta ?{" "}
-              <button className="text-subtitle underline" onClick={onSwitch}>
+              <button className="text-subtitle dark:text-subtitle-dark underline" onClick={onSwitch}>
                 {" "}
                 Registre-se
               </button>
