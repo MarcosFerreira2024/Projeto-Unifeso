@@ -9,10 +9,14 @@ function ThemeSwitcher() {
     const pegaTema = localStorage.getItem('theme');
     const [temaBotao,setTemaBotao] = React.useState<string>(pegaTema as string);
     function handleClick(event: React.MouseEvent<HTMLElement>){
-        const tema = event.currentTarget.getAttribute("data-tema")
-        localStorage.setItem('theme', tema as string);
-        setTemaBotao(tema as string)
-        setTheme(tema as string)
+        if (pegaTema){
+            const tema = event.currentTarget.getAttribute("data-tema")
+            localStorage.setItem('theme', tema as string);
+            setTemaBotao(tema as string)
+            setTheme(tema as string)
+        }else{
+            setTemaBotao('light')
+        }
     }    
   return (
     <div>
