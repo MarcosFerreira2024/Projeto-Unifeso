@@ -20,7 +20,7 @@ function Cadastro() {
                   alt="logo unifeso"
                   width="250"
                   height="66"
-                  className="min-w-[250px] min-h-[66px] object-contain "
+                  className="min-w-[250px] min-h-[66px] object-contain  "
                 />
               </Link>
             </div>
