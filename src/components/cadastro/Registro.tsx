@@ -95,12 +95,12 @@ function Registro({ onSwitch }: registrar) {
                     e.preventDefault();
                     setCheck(!checked);
                   }}
-                  className="rounded-full w-[30px] h-[30px] border-[2px] dark:border-gray-600 border-title"
+                  className="rounded-full w-[30px] h-[30px] border-[2px] dark:border-gray-300 border-title"
                 ></button>
-                <p className="text-sm pl-2 max-w-[220px] break-words ">
+                <p className="text-sm pl-2 max-w-[220px] break-words font-roboto ">
                   Eu li e concordo com os{" "}
                   <a
-                    className="underline text-subtitle dark:text-subtitle-dark "
+                    className="underline text-subtitle dark:text-gray-300 "
                     href="/termos_de_uso"
                     target="blank"
                   >
