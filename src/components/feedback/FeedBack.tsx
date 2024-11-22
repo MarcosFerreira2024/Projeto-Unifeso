@@ -40,10 +40,10 @@ function FeedBack() {
               />
             </div>
           ))}
+        </div>
           <div className="flex max-w-[1280px] justify-center mt-10 mx-auto ">
            <BotaoEvent  label="Deixe Sua Avaliação"/>
           </div>
-        </div>
       </section>
     </section>
   );
