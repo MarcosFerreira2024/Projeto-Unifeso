@@ -15,7 +15,7 @@ function ThemeSwitcher() {
           setTemaBotao('light')
           setTheme('light')
         }
-      }, [])
+      }, [setTheme])
     function handleClick(event: React.MouseEvent<HTMLElement>){
             const tema = event.currentTarget.getAttribute("data-tema")
             localStorage.setItem('theme', tema as string);
