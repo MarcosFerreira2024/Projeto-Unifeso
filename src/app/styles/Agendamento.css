@@ -7,7 +7,6 @@
 .slides {
   max-width: inherit;
   display: flex;
-  transform: translateX(0%);
 }
 .slide {
   display: flex;
@@ -30,4 +29,11 @@
 .hovered {
   background: linear-gradient(to top, blue, white);
   animation: moveBackground 1s forwards;
+}
+
+.ativo{
+  transition: opacity ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.1);
+  cursor:default; 
+  
 }
