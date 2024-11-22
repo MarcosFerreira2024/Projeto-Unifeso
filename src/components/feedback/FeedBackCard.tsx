@@ -9,7 +9,7 @@ type card = {
   alt: string;
   width?: number;
   height?: number;
-  comentario: string;
+  comentario: string; 
 };
 function FeedBackCard({
   name,
@@ -20,15 +20,18 @@ function FeedBackCard({
   comentario,
   stars,
 }: card) {
+    const max = 5
+    const [like,setLike] = React.useState(true)
   return (
     <>
-      <div className="absolute right-0 top-0 m-5 overflow-hidden w-[50px] h-[50px] rounded-full flex justify-center items-center">
-        <BotoesNavBar  src="FeedBack/like.svg" alt="like"/>
+
+      <div className=" absolute top-0 p-5 flex items-center justify-end rounded-full">
+        {like?<BotoesNavBar onClick={()=>setLike(false)}  src="FeedBack/like.svg" alt="like"/>:<BotoesNavBar onClick={()=>setLike(true)} src="FeedBack/like-ativo.svg" alt="dislike"/>}
       </div>
       <div>
-        <Texto texto={name} />
+        <Texto texto={name} size="text-3xl sm:text-2xl lg:text-3xl xl:text-4xl" />
       </div>
-      <div className="flex self-center rounded-full overflow-hidden ">
+      <div className="flex self-center rounded-full overflow-hidden mt-5 ">
         <Image
           src={url}
           alt={alt}
@@ -37,9 +40,9 @@ function FeedBackCard({
           className="object-fit"
         />
       </div>
-      <div>{stars}</div>
-      <div>
-        <Texto texto={comentario} />
+      <div className="text-4xl text-yellow-400  lg:mb-5 mt-2 flex self-center">{"★".repeat(stars)+"☆".repeat(max-stars)}</div>
+      <div className="min-h-[100px] ">
+        <Texto texto={comentario} size="text-base md:text-base xl:text-xl" />
       </div>
     </>
   );
