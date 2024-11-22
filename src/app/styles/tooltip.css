@@ -12,6 +12,8 @@
     color: #04887f;
     border: 2px solid #02877e;
     background-color: white;
+    min-width: 70px;
+    text-align: center;
     padding: 0.5px 5px;
     border-radius: 10px;
     visibility: hidden;

@@ -8,8 +8,8 @@
 
 
 .anima{
-    animation: modalServico 300ms forwards;
-    transition: all ease-in-out ; 
+    animation: modalServico 250ms forwards;
+    transition: opacity ease-in-out ; 
     opacity: 0;
   }
   
@@ -45,3 +45,4 @@
       opacity: 1;
     }
   }
+  
