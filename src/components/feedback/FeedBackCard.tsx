@@ -22,7 +22,7 @@ function FeedBackCard({
 }: card) {
   return (
     <>
-      <div className="absolute right-0 top-0  m-5 ">
+      <div className="absolute right-0 top-0 m-5 overflow-hidden w-[50px] h-[50px] rounded-full flex justify-center items-center">
         <BotoesNavBar  src="FeedBack/like.svg" alt="like"/>
       </div>
       <div>

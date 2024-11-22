@@ -21,7 +21,7 @@ function FeedBack() {
                xl:min-h-[500px] 
               lg:max-h-[425px]
                lg:min-h-[425px] md:max-h-[350px] md:min-h-[350px]
-               hover:scale-105 cursor-default md:cursor-pointer 
+               hover:scale-105 
               transition-all  dark:hover:bg-gray-800 dark:border-title-dark
                dark:shadow-gray-400   dark:shadow-md   
                lg:max-w-[275px] lg:min-w-[275px] xl:min-w-[350px] xl:max-w-[350px] md:max-w-[225px] md:min-w-[225px] min-w-[275px]
@@ -41,10 +41,10 @@ function FeedBack() {
             </div>
           ))}
         </div>
-          <div className="flex max-w-[1280px] justify-center mt-10 mx-auto ">
+      </section>
+          <div className="flex max-w-[1280px] justify-center mt-10 mx-auto">
            <BotaoEvent  label="Deixe Sua Avaliação"/>
           </div>
-      </section>
     </section>
   );
 }
