@@ -6,6 +6,7 @@ import Marquee from "@/components/marquee/Marquee";
 import Agendamento from "@/components/agendamento/Agendamento";
 import Servicos from "@/components/serviços/Servicos";
 import { ServiceProvider } from "@/components/serviços/ContextServico";
+import FeedBack from "@/components/feedback/FeedBack";
 export default function Home() {
   return (
     <>
@@ -14,9 +15,7 @@ export default function Home() {
     <Marquee />
     <Agendamento />
     <ServiceProvider><Servicos /></ServiceProvider>
-    <div className="mt-[200px]">
-
-    </div>
+    <FeedBack />
     </>
   );
 }
