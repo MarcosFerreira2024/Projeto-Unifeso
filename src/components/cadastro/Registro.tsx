@@ -11,6 +11,9 @@ type registrar = {
 function Registro({ onSwitch }: registrar) {
   const [showPassword, setShowPassword] = useState(false);
   const [checked, setCheck] = useState(false);
+  function handleForm(e: React.FormEvent){
+    e.preventDefault()
+  }
   return (
     <>
       <div className="flex flex-col mt-20 md:mt-0 justify-center items-center">
@@ -29,7 +32,7 @@ function Registro({ onSwitch }: registrar) {
           <Titulo subtitulo="ㅤ" titulo="Registrar" />
         </div>
         <div>
-          <form action="post" className="grid lg:grid-cols-2 justify-center  gap-5">
+          <form action="post" onSubmit={handleForm} className="grid lg:grid-cols-2 justify-center  gap-5">
             <div className="gap-5 flex flex-col">
               <Input
                 type="text"
