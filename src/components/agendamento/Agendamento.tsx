@@ -43,10 +43,10 @@ function Agendamento() {
                 <CardAgendamento label="Confirmação de Agendamento" src="Agendamento/confirmacao.svg" color="#4CAF50" />
             </div>
           </div>
-        <div className="flex justify-center pt-10 gap-2 ">
-          <button data-id="0" onClick={handleClick} className={`${slide === 0 ? 'ativo' : ''} dark:invert dark:brightness-2 filter dark:grayscale shadow-sm hover:scale-105 w-[30px] botao h-[30px] rounded-full border-[2px]  border-background`}></button>
-          <button data-id="1" onClick={handleClick} className={`${slide === 1 ? 'ativo' : ''} dark:invert dark:brightness-2 filter dark:grayscale shadow-sm hover:scale-105 w-[30px] botao h-[30px] rounded-full border-[2px]  border-background`}></button>
-          <button data-id="2" onClick={handleClick} className={`${slide === 2 ? 'ativo' : ''} dark:invert dark:brightness-2 filter dark:grayscale shadow-sm hover:scale-105 w-[30px] botao h-[30px] rounded-full border-[2px]  border-background`}></button>
+        <div className="flex justify-center pt-5 gap-2 ">
+          <button data-id="0" onClick={handleClick} className={`${slide === 0 ? 'ativo ' : 'hover:scale-105'} my-5 dark:invert transition-all duration-300 ease-in-out dark:brightness-2 filter dark:grayscale shadow-sm  w-[30px] botao h-[30px] rounded-full border-[2px]  border-background`}></button>
+          <button data-id="1" onClick={handleClick} className={`${slide === 1 ? 'ativo ' : 'hover:scale-105'} my-5 dark:invert transition-all duration-300 ease-in-out dark:brightness-2 filter dark:grayscale shadow-sm  w-[30px] botao h-[30px] rounded-full border-[2px]  border-background`}></button>
+          <button data-id="2" onClick={handleClick} className={`${slide === 2 ? 'ativo ' : 'hover:scale-105'} my-5 dark:invert transition-all duration-300 ease-in-out dark:brightness-2 filter dark:grayscale shadow-sm  w-[30px] botao h-[30px] rounded-full border-[2px]  border-background`}></button>
         </div>
       </div>
 
