@@ -3,24 +3,22 @@ import CardAgendamento from "./CardAgendamento";
 import Titulo from "../geral/Titulo";
 
 function Agendamento() {
+  const [slide, setSlide] = React.useState(0);
   function handleClick(event: React.MouseEvent<HTMLElement>) {
-    const slides = document.querySelector(".slides");
-    const button = event.currentTarget;
     const id = event.currentTarget.getAttribute("data-id");
-
-    
-    if (slides&&button){
-      const currentClass = slides.classList[4];
-      slides.classList.remove(currentClass);
-      if (id){
-        document.querySelectorAll('.botao').forEach((botao) => botao.classList.remove('ativo'));
-        button.classList.add('ativo');
-        slides.classList.add(`translate-x-[${+id *-100}%]`);
-      }
+    if (id) {
+      setSlide(parseInt(id));
     }
-  
-
   }
+  React.useEffect(() => {
+    const slides = document.querySelector(".slides");
+    if (slides) {
+      slides.className = "slides transition-all duration-300 ease-in-out";
+
+      slides.classList.add(`translate-x-[${slide * -100}%]`);
+    }
+
+  }, [slide]); 
 
   return (
     <section id="agendamento">
@@ -46,9 +44,9 @@ function Agendamento() {
             </div>
           </div>
         <div className="flex justify-center pt-10 gap-2 ">
-          <button data-id="0" onClick={handleClick} className="ativo dark:invert dark:brightness-2 dark:grayscale shadow-sm hover:scale-105 w-[30px] botao h-[30px] rounded-full border-[2px]  border-background"></button>
-          <button data-id="1" onClick={handleClick} className="w-[30px] dark:invert dark:brightness-2 dark:grayscale shadow-sm hover:scale-105 botao h-[30px] rounded-full border-[2px] border-background"></button>
-          <button data-id="2" onClick={handleClick} className="w-[30px]  dark:invert dark:brightness-2 dark:grayscale shadow-sm hover:scale-105 botao h-[30px] rounded-full border-[2px] border-background"></button>
+          <button data-id="0" onClick={handleClick} className={`${slide === 0 ? 'ativo' : ''} dark:invert dark:brightness-2 filter dark:grayscale shadow-sm hover:scale-105 w-[30px] botao h-[30px] rounded-full border-[2px]  border-background`}></button>
+          <button data-id="1" onClick={handleClick} className={`${slide === 1 ? 'ativo' : ''} dark:invert dark:brightness-2 filter dark:grayscale shadow-sm hover:scale-105 w-[30px] botao h-[30px] rounded-full border-[2px]  border-background`}></button>
+          <button data-id="2" onClick={handleClick} className={`${slide === 2 ? 'ativo' : ''} dark:invert dark:brightness-2 filter dark:grayscale shadow-sm hover:scale-105 w-[30px] botao h-[30px] rounded-full border-[2px]  border-background`}></button>
         </div>
       </div>
 
