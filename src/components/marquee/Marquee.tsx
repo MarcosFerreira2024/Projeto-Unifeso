@@ -23,8 +23,8 @@ function Marquee() {
                 <p className="w-[9px] h-[9px] bg-background dark:bg-background-dark rounded-full"></p>
               </div>
               <p>
-                {item.horario_inicio.toFixed(2).replace(".", ":")}- 
-                {item.horario_termino.toFixed(2).replace(".", ":")}
+                {item.horario_inicio.toFixed(2).replace(".", ":")+"h "}- 
+                {item.horario_termino.toFixed(2).replace(".", ":")+"h "}
               </p>
             </li>
           ))}
@@ -38,8 +38,8 @@ function Marquee() {
                 <p className="w-[9px] h-[9px] bg-background dark:bg-background-dark rounded-full"></p>
               </div>
               <p>
-                {item.horario_inicio.toFixed(2).replace(".", ":")}- 
-                {item.horario_termino.toFixed(2).replace(".", ":")}
+                {item.horario_inicio.toFixed(2).replace(".", ":")+"h "}- 
+                {item.horario_termino.toFixed(2).replace(".", ":")+"h "}
               </p>
             </li>
           ))}
