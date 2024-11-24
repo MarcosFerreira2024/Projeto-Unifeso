@@ -4,11 +4,12 @@ type eventButton = {
     onClick?: (event: React.MouseEvent<HTMLElement>) => void
     onMouseEnter?: (event: React.MouseEvent<HTMLElement>) => void
     onMouseLeave?: (event: React.MouseEvent<HTMLElement>) => void
+    type?: "submit" | "reset" | "button" | undefined
 }
-function BotaoEvent({label,onClick,onMouseEnter,onMouseLeave}: eventButton) {
+function BotaoEvent({label,onClick,onMouseEnter,onMouseLeave,type=undefined}: eventButton) {
   return (
     <>
-<button onClick={onClick} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="w-[168px] botao 
+<button onClick={onClick} type={type} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="w-[168px] botao 
 h-[38px] border-[2px] border-subtitle 
 hover:bg-[#2e8b85] dark:border-gray-300
  bg-white dark:bg-pagina-dark dark:text-gray-300 

@@ -39,9 +39,9 @@ function FeedBackCard({
     <>
       <div className="absolute top-0 p-5 flex items-center justify-end rounded-full">
         {like ? (
-          <BotoesNavBar onClick={() => setLike(false)} src="FeedBack/like.svg" alt="like" />
+          <BotoesNavBar onClick={() => setLike(false)} src="FeedBack/like.svg" alt="deslike" />
         ) : (
-          <BotoesNavBar onClick={() => setLike(true)} src="FeedBack/like-ativo.svg" alt="dislike" />
+          <BotoesNavBar onClick={() => setLike(true)} src="FeedBack/like-ativo.svg" alt="like" />
         )}
       </div>
       <div>
