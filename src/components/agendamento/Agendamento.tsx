@@ -32,6 +32,7 @@ function Agendamento() {
             <CardAgendamento
               label="Agendar"
               src="Agendamento/Agendar.svg"
+              href="/agendamento"
               color="#04887F"
             />
             <CardAgendamento
