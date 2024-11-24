@@ -5,7 +5,7 @@ import Link from "next/link";
 import BotoesNavBar from "./BotoesNavBar";
 import ThemeSwitcher from "../geral/ThemeSwitcher";
 
-function NavBar({color,border}:{color?:string,border?:string}) {
+function NavBar({color,border,visible=true}:{color?:string,border?:string,visible?:boolean}) {
   function handleVisibility() {
     const menuMobile = document.getElementById("menu-mobile") as HTMLElement;
     if (menuMobile.classList.contains("hidden")) {
@@ -40,10 +40,10 @@ function NavBar({color,border}:{color?:string,border?:string}) {
           className="md:mr-5 lg:mr-0 md:bg-none hidden md:flex-row flex-col opacity-0  md:opacity-100 md:flex p-10 w-[100vw] justify-center md:justify-end items-center  rounded-bl-lg md:p-0 gap-5 transition-all ease-in translate-y-[-40px] md:translate-y-0 md:static absolute"
           id="menu-mobile"
         >
-          <div>
+           <div>
             <ThemeSwitcher />
           </div>
-          <BotoesNavBar
+          {visible?<><BotoesNavBar
             href="#agendamento"
             src="NavBar/agenda.svg"
             alt="Agendamento"
@@ -67,7 +67,7 @@ function NavBar({color,border}:{color?:string,border?:string}) {
             href="#contato"
             src="NavBar/contact.svg"
             alt="Contato"
-          />
+          /></> :null}
           <BotoesNavBar
             href="/cadastro"
             src="NavBar/account.svg"
