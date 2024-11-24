@@ -6,7 +6,7 @@ import BotaoEvent from "../geral/BotaoEvent";
 import ModalFeedBack from "./ModalFeedBack";
 
 function FeedBack() {
-  const [modal,setModal] = React.useState(false); 
+  const [modal,setModal] = React.useState(true); 
 
   function openModal(){
         setModal(true)
