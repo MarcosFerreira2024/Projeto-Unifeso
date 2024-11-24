@@ -3,18 +3,30 @@ import FeedBackCard from "./FeedBackCard";
 import Titulo from "../geral/Titulo";
 import { feedBackData } from "@/data/feedBackData";
 import BotaoEvent from "../geral/BotaoEvent";
+import ModalFeedBack from "./ModalFeedBack";
 
 function FeedBack() {
+  const [modal,setModal] = React.useState(false); 
+
+  function openModal(){
+        setModal(true)
+        if (modal) {
+          setModal(false)
+        }
+    
+  }
   return (
-    <section id="feedback">
+    <section id="feedback " >
+      
       <div
         className={`flex border-subtitle dark:border-gray-600 dark:bg-gray-700 border-[1px] sombraServicos  mx-auto justify-center py-10 `}
       >
         <Titulo titulo="FeedBack" />
       </div>
-      <section className="pt-[80px] pb-[80px]">
-        <div className="grid grid-cols-1 md:flex gap-20 md:gap-10 lg:gap-20 animaFeedBack  flex-wrap   justify-center xl:justify-between max-w-[1280px] mx-auto ">
-          {feedBackData.map((item, index) => (
+      <section className="pt-[80px] pb-[80px] ">
+        
+        <div className="grid grid-cols-1 relative md:flex gap-20 md:gap-10 lg:gap-20 animaFeedBack  flex-wrap   justify-center xl:justify-between max-w-[1280px] mx-auto ">
+        {modal?feedBackData.map((item, index) => (
             <div
               className=" text-center mx-auto md:mx-0 cardfeed flex max-h-[400px] min-h-[400px]  
               xl:max-h-[500px]
@@ -39,11 +51,15 @@ function FeedBack() {
                 stars={item.stars}
               />
             </div>
-          ))}
+            
+          )):<div className="w-[100%] flex"><ModalFeedBack /> </div>}
+       
+          
         </div>
       </section>
-          <div className="flex max-w-[1280px] justify-center mt-10 mx-auto">
-           <BotaoEvent  label="Deixe Sua Avaliação"/>
+          <div className="flex max-w-[1280px] justify-center pt-10 pb-20 mx-auto">
+           <BotaoEvent onClick={openModal}  label="Deixe Sua Avaliação"/>
+           
           </div>
     </section>
   );

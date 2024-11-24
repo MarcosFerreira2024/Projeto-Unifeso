@@ -81,21 +81,21 @@ function Agendamento() {
             onClick={handleClick}
             className={`${
               slide === 0 ? "ativo" : "hover:scale-105"
-            } my-5 dark:invert transition-all duration-300 ease-in-out dark:brightness-2 filter dark:grayscale shadow-sm w-[30px] botao h-[30px] rounded-full border-[2px] border-background`}
+            } my-5 dark:invert transition-all duration-300 ease-in-out dark:brightness-2 filter dark:grayscale shadow-sm w-[20px] botao h-[20px] rounded-full border-[2px] border-background`}
           ></button>
           <button
             data-id="1"
             onClick={handleClick}
             className={`${
               slide === 1 ? "ativo" : "hover:scale-105"
-            } my-5 dark:invert transition-all duration-300 ease-in-out dark:brightness-2 filter dark:grayscale shadow-sm w-[30px] botao h-[30px] rounded-full border-[2px] border-background`}
+            } my-5 dark:invert transition-all duration-300 ease-in-out dark:brightness-2 filter dark:grayscale shadow-sm w-[20px] botao h-[20px] rounded-full border-[2px] border-background`}
           ></button>
           <button
             data-id="2"
             onClick={handleClick}
             className={`${
               slide === 2 ? "ativo" : "hover:scale-105"
-            } my-5 dark:invert transition-all duration-300 ease-in-out dark:brightness-2 filter dark:grayscale shadow-sm w-[30px] botao h-[30px] rounded-full border-[2px] border-background`}
+            } my-5 dark:invert transition-all duration-300 ease-in-out dark:brightness-2 filter dark:grayscale shadow-sm w-[20px] botao h-[20px] rounded-full border-[2px] border-background`}
           ></button>
         </div>
       </div>

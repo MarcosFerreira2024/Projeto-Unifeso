@@ -3,7 +3,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className='mt-[80px]' id='contato'>
+    <footer id='contato'>
         <section className='bg-subtitle dark:bg-background-dark'>
             <nav className='max-w-[1280px] mx-auto flex justify-center gap-10 py-5 '>
                 <button className='filter hover:brightness-75 transition-all duration-300 ease-in-out'><Image src="Footer/instagram.svg" alt="logo" width={32} height={32} /></button>
