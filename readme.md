@@ -121,7 +121,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 ## Protótipo
 - [Protótipo no Figma](https://www.figma.com/design/BA4GqjHkNhWD0brq4BgE4g/Untitled?node-id=0-1&t=gPECUZ3Lk56MlsP1-1)
 
-![Agendamento w-1440](https://github.com/user-attachments/assets/b02b6401-52d7-4486-a4f7-8ac3503a02fd)
+![Main w-1440](https://github.com/user-attachments/assets/efefb755-1281-4a94-b15d-2c50cace5b6c)
 ![Cadastro w-1440](https://github.com/user-attachments/assets/7348e60b-bd4d-4b32-9b63-c588e59613c5)
 ![Agendamento w-1440](https://github.com/user-attachments/assets/7302361a-25de-4bdc-9279-67f1d1d967be)
 
