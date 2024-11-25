@@ -102,6 +102,12 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 7. **Compatibilidade**: Ser compatível com navegadores modernos e dispositivos móveis.
 8. **Backup e Recuperação de Dados**: Implementar rotinas de backup para garantir a continuidade do serviço.
 
+![image](https://github.com/user-attachments/assets/0986f18c-aacb-438e-b578-5b8e11114cc3)
+
+![image](https://github.com/user-attachments/assets/ad0cc958-daf6-4521-84a8-5935f99580d7)
+
+
+
 ## Tipo de MVP
 - Protótipo: Parte inicial para explorar e validar o design, feito no Figma.
 - Mágico de Oz: MVP interativo mas ainda com soluções manuais por se tratar de um MVP front end sem utilização de Back End para armazenar esses dados.
