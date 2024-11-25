@@ -86,7 +86,7 @@ function ModalFeedBack() {
         </div>
 
         <div className="mt-2">
-          <BotaoEvent label="Enviar Avaliação" />
+          <BotaoEvent type="submit" label="Enviar Avaliação" />
         </div>
       </form>
 

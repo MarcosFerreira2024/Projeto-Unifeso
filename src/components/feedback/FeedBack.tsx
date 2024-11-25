@@ -9,10 +9,9 @@ function FeedBack() {
   const [modal,setModal] = React.useState(true); 
 
   function openModal(){
-        setModal(true)
-        if (modal) {
-          setModal(false)
-        }
+        setModal(false)
+
+
     
   }
   return (
@@ -58,7 +57,7 @@ function FeedBack() {
         </div>
       </section>
           <div className="flex max-w-[1280px] justify-center pt-10 pb-20 mx-auto">
-           <BotaoEvent onClick={openModal}  label="Deixe Sua Avaliação"/>
+           {modal?<BotaoEvent type="button" label="Deixe Sua Avaliação" onClick={openModal} />:""}
            
           </div>
     </section>
