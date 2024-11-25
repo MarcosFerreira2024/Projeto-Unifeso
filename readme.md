@@ -12,6 +12,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 - [Como Instalar e Executar o Projeto](#como-instalar-e-executar-o-projeto)
 - [Prioridades](#prioridades)
 - [Protótipo](#protótipo)
+- [Meu Aprendizado](#meu-aprendizado)
 ## Alunos
 - **Marcos Vinicius Ferreira Pinto**.
 - **Miguel Arcuri Carapeto Faria**.
@@ -123,3 +124,45 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 ![Main w-1440](https://github.com/user-attachments/assets/45a91353-b012-4727-8348-3b37a4cd1d4d)
 ![Cadastro w-1440](https://github.com/user-attachments/assets/7348e60b-bd4d-4b32-9b63-c588e59613c5)
 ![Agendamento w-1440](https://github.com/user-attachments/assets/7302361a-25de-4bdc-9279-67f1d1d967be)
+
+## Meu Aprendizado
+
+### **Next.js**
+- Aprendi o basico do framework Next.js.
+- Trabalhei com a estrutura de rotas e páginas dinâmicas do Next.js.
+- Me atentei à ajuda que o Next em conjunto do Vercel ofereceram para possiveis melhorias no meu codigo e nas experiências dos usuarios finais.
+
+
+---
+
+### **TypeScript**
+- Manipulação e tipagem de dados.
+- Utilização de arquivos `.tsx` para componentes React.
+- Uso de interfaces e tipos personalizados para maior segurança no código.
+
+---
+
+### **React**
+- Utilização de **Hooks**:
+  - `useEffect`: Para efeitos colaterais como chamadas de API ou manipulação do DOM.
+  - `useContext`: Para compartilhamento de estados globais.
+  - `useState`: Para gerenciamento de estados locais nos componentes.
+  - `useThemes`: Implementação de temas Dark e Light.
+
+---
+
+### **TailwindCSS**
+- Utilização para estilização rápida e eficiente.
+- Criação de temas dinâmicos entre Dark e Light integrados ao React.
+
+---
+
+### **CSS**
+- Criação de animações com Scroll.
+- Implementação de delays entre animações para suavidade.
+- Desenvolvimento de um **Marquee** (efeito de texto rolando ou animado).
+- Melhoria geral nas habilidades de estilização.
+  
+---
+
+
