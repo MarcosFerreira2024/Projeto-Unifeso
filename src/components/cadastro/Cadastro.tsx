@@ -9,7 +9,7 @@ import ModalCadastro from "./ModalCadastro";
 import { ContextCadastro } from "./ContextCadastro";
 function Cadastro() {
   const [entrar,setEntrar]=React.useState(true)
-   const {modal,setModal}=React.useContext(ContextCadastro)
+   const {modal}=React.useContext(ContextCadastro)
          
   return (
     <section className="grid md:grid-cols-2 ">

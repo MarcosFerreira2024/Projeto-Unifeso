@@ -16,6 +16,7 @@ function ModalFeedBack() {
 
   function handleClick(event: React.FormEvent) {
     event.preventDefault();
+    window.location.href = "/";
     alert('Avaliação Enviada com sucesso');
   }
 
