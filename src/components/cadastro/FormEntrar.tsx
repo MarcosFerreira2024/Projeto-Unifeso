@@ -9,6 +9,11 @@ type form = {
 };
 function FormEntrar({ onSwitch }: form) {
   const [showPassword, setShowPassword] = useState(false);
+  function handleSubmit(e:React.FormEvent<HTMLFormElement>){
+    e.preventDefault()
+    window.alert('Login efetuado com sucesso, seja bem vindo.')
+    window.location.href="/"
+  }
   return (
     <>
       <div className="flex flex-col gap-5">
@@ -29,7 +34,7 @@ function FormEntrar({ onSwitch }: form) {
           </div>
         </div>
         <div>
-          <form action="post" className="flex flex-col gap-5">
+          <form action="post" onSubmit={handleSubmit} className="flex flex-col gap-5">
             <Input
               type="email"
               label="Email"
