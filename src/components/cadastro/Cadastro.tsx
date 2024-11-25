@@ -5,11 +5,16 @@ import Image from "next/image";
 import Link from "next/link";
 import FormEntrar from "./FormEntrar";
 import Registro from "./Registro";
+import ModalCadastro from "./ModalCadastro";
+import { ContextCadastro } from "./ContextCadastro";
 function Cadastro() {
   const [entrar,setEntrar]=React.useState(true)
+   const {modal,setModal}=React.useContext(ContextCadastro)
+         
   return (
     <section className="grid md:grid-cols-2 ">
-      <section className=" bg-background dark:bg-background-dark md:h-screen">
+      <section className=" bg-background realtive dark:bg-background-dark md:h-screen">
+        {modal?<ModalCadastro/>:""}
         <div className="max-w-[640px] ml-auto hidden md:flex min-w-[100%] justify-center md:justify-normal pt-60 items-center flex-col md:h-screen h-[60vh]">
 
           <div className="flex flex-col gap-2 relative ">

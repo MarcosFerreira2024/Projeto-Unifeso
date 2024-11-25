@@ -2,10 +2,11 @@
 import React from "react";
 import "@/app/globals.css";
 import Cadastro from "@/components/cadastro/Cadastro";
+import { ContextCadastroProvider } from "@/components/cadastro/ContextCadastro";
 function page() {
   return (
     <>
-      <Cadastro />
+      <ContextCadastroProvider><Cadastro /></ContextCadastroProvider>
     </>
   );
 }

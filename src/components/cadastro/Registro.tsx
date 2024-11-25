@@ -4,6 +4,8 @@ import Input from "./Input";
 import Titulo from "../geral/Titulo";
 import Image from "next/image";
 import Link from "next/link";
+import { ContextCadastro } from "./ContextCadastro";
+
 
 type registrar = {
   onSwitch: () => void;
@@ -11,12 +13,16 @@ type registrar = {
 function Registro({ onSwitch }: registrar) {
   const [showPassword, setShowPassword] = useState(false);
   const [checked, setCheck] = useState(false);
+  const {modal,setModal}=React.useContext(ContextCadastro)
   function handleForm(e: React.FormEvent){
     e.preventDefault()
+    setModal(true)
   }
+ 
   return (
     <>
-      <div className="flex flex-col mt-20 md:mt-0 justify-center items-center">
+      <div className="flex flex-col  mt-20 md:mt-0 justify-center items-center">
+       
         <div className="md:hidden">
           <Link href="/">
             <Image
