@@ -20,7 +20,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 - **Luiz Felipe Oliveira Da Silva**.
 
 ## Objetivo do projeto
--Temos como objetivo a criação de um sistema que facilite os usuários com quaisquer problemas que possam ser solucionados juntamente ao NAF. Para isso, trabalhamos com um sistema direto e intuitivo, que permitirá um contato mais ágil entre o usuário, e os membros.
+Temos como objetivo a criação de um sistema que facilite os usuários com quaisquer problemas que possam ser solucionados juntamente ao NAF. Para isso, trabalhamos com um sistema direto e intuitivo, que permitirá uma intermediação mais ágil para que os problemas dos usuários seham resolvdos.
 
 ## Dores do Publico Alvo
 - Falta de Conhecimento sobre o Processo
