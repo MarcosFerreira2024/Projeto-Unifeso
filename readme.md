@@ -9,6 +9,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Requisitos Funcionais](#requisitos-funcionais)
 - [Requisitos Não Funcionais](#requisitos-não-funcionais)
+- [Tipo de MVP](#tipo-de-mvp)
 - [Como Instalar e Executar o Projeto](#como-instalar-e-executar-o-projeto)
 - [Prioridades](#prioridades)
 - [Protótipo](#protótipo)
@@ -101,6 +102,10 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 7. **Compatibilidade**: Ser compatível com navegadores modernos e dispositivos móveis.
 8. **Backup e Recuperação de Dados**: Implementar rotinas de backup para garantir a continuidade do serviço.
 
+## Tipo de MVP
+- Protótipo: Parte inicial para explorar e validar o design, feito no Figma.
+- Mágico de Oz: MVP interativo mas ainda com soluções manuais por se tratar de um MVP front end sem utilização de Back End para armazenar esses dados.
+  
 ## Prioridades
 - **Alta**: Compatibilidade com Navegadores e Dispositivos Móveis.
 - **Alta**: UX e UI Design.
