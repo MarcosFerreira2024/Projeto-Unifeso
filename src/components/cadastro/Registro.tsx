@@ -13,7 +13,7 @@ type registrar = {
 function Registro({ onSwitch }: registrar) {
   const [showPassword, setShowPassword] = useState(false);
   const [checked, setCheck] = useState(false);
-  const {modal,setModal}=React.useContext(ContextCadastro)
+  const {setModal}=React.useContext(ContextCadastro)
   function handleForm(e: React.FormEvent){
     e.preventDefault()
     setModal(true)
