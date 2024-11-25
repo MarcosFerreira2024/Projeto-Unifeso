@@ -11,6 +11,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 - [Requisitos Não Funcionais](#requisitos-não-funcionais)
 - [Como Instalar e Executar o Projeto](#como-instalar-e-executar-o-projeto)
 - [Prioridades](#prioridades)
+- [Protótipo](#protótipo)
 ## Alunos
 - **Marcos Vinicius Ferreira Pinto**.
 - **Miguel Arcuri Carapeto Faria**.
@@ -116,5 +117,9 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 - Pegue o localhost e coloque no seu navegador.
 - Pronto agora você pode visualizar o site da **Agenda Facil NAF**.
 
+## Protótipo
+- [Protótipo no Figma](https://www.figma.com/design/BA4GqjHkNhWD0brq4BgE4g/Untitled?node-id=0-1&t=gPECUZ3Lk56MlsP1-1)
 
-
+![Main w-1440](https://github.com/user-attachments/assets/45a91353-b012-4727-8348-3b37a4cd1d4d)
+![Cadastro w-1440](https://github.com/user-attachments/assets/7348e60b-bd4d-4b32-9b63-c588e59613c5)
+![Agendamento w-1440](https://github.com/user-attachments/assets/7302361a-25de-4bdc-9279-67f1d1d967be)
