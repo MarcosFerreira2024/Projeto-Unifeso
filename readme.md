@@ -19,6 +19,9 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 - **Miguel Arcuri Carapeto Faria**.
 - **Luiz Felipe Oliveira Da Silva**.
 
+## Objetivo do projeto
+-Temos como objetivo a criação de um sistema que facilite os usuários com quaisquer problemas que possam ser solucionados juntamente ao NAF. Para isso, trabalhamos com um sistema direto e intuitivo, que permitirá um contato mais ágil entre o usuário, e os membros.
+
 ## Dores do Publico Alvo
 - Falta de Conhecimento sobre o Processo
 - Dificuldade em entender as etapas da declaração do imposto de renda.
