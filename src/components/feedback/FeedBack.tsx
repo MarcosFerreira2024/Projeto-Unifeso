@@ -16,7 +16,7 @@ function FeedBack() {
     
   }
   return (
-    <section id="feedback " >
+    <section id="feedback" >
       
       <div
         className={`flex border-subtitle dark:border-gray-600 dark:bg-gray-700 border-[1px] sombraServicos  mx-auto justify-center py-10 `}
