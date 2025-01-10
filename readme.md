@@ -7,8 +7,7 @@ A **AgendaFácil NAF** é uma plataforma web desenvolvida para facilitar o agend
 - [Dores do Publico Alvo](#dores-do-publico-alvo)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Requisitos Funcionais](#requisitos-funcionais)
-- [Requisitos Não Funcionais](#requisitos-não-funcionais)
+- [Requisitos](#requisitos)
 - [Tipo de MVP](#tipo-de-mvp)
 - [Como Instalar e Executar o Projeto](#como-instalar-e-executar-o-projeto)
 - [Prioridades](#prioridades)
@@ -81,29 +80,8 @@ Temos como objetivo a criação de um sistema que facilite os usuários com quai
 - **Controle de Versionamento**: Git e GitHub.
 - **Frameworks**: TailWindCSS NextJs .
 - **Bibliotecas**: React .
-
-## Requisitos Funcionais
-
-1. **Cadastro de Usuários**: Permitir o cadastro e autenticação de usuários (população local, estudantes, professores e administradores).
-2. **Visualização de Horários Disponíveis**: Exibir horários disponíveis para o público realizar agendamentos.
-3. **Agendamento de Atendimento**: Permitir ao usuário agendar horários específicos.
-4. **Gestão de Agendamentos**: Administradores podem visualizar, alterar e cancelar agendamentos.
-5. **Notificações por E-mail**: Enviar confirmações e lembretes de agendamentos por e-mail.
-6. **Feedback de Atendimento**: Permitir que usuários avaliem o atendimento recebido.
-7. **Reagendamento e Cancelamento**: Possibilitar que usuários reagendem ou cancelem seus atendimentos.
-8. **Controle de Acesso Diferenciado**: Diferenciar permissões entre população, estudantes/professores e administradores.
-9. **Diversificação dos meios de contato**: Uso de redes sociais, como por exemplo o whatsapp, para fazer contato com os usuários.
-
-## Requisitos Não Funcionais
-
-1. **Usabilidade**: Interface amigável e acessível para diferentes perfis de usuários.
-2. **Performance**: Responder rapidamente às solicitações de usuários, especialmente em períodos de alta demanda.
-3. **Segurança de Dados**: Garantir a proteção dos dados pessoais dos usuários.
-4. **Conformidade com LGPD**: Cumprir as normas de proteção de dados conforme a LGPD.
-5. **Disponibilidade**: Garantir 99% de uptime durante o horário de funcionamento do NAF.
-6. **Escalabilidade**: Permitir crescimento do sistema sem perda de performance.
-7. **Compatibilidade**: Ser compatível com navegadores modernos e dispositivos móveis.
-8. **Backup e Recuperação de Dados**: Implementar rotinas de backup para garantir a continuidade do serviço.
+  
+## Requisitos
 
 ![image](https://github.com/user-attachments/assets/0986f18c-aacb-438e-b578-5b8e11114cc3)
 
